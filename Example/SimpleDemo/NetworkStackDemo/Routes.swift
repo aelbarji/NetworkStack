@@ -15,7 +15,7 @@
 //
 
 import Foundation
-import NetworkStack
+import EnGareNetworkStack
 
 public struct Route: Routable {
   public let path: String

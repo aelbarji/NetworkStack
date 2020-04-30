@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import NetworkStack
+import EnGareNetworkStack
 import Alamofire
 import RxSwift
 import OHHTTPStubs

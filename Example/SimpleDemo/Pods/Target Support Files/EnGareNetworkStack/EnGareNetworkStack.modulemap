@@ -1,0 +1,6 @@
+framework module EnGareNetworkStack {
+  umbrella header "EnGareNetworkStack-umbrella.h"
+
+  export *
+  module * { export * }
+}

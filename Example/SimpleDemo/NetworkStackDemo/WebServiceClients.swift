@@ -15,7 +15,7 @@
 //
 
 import Foundation
-import NetworkStack
+import EnGareNetworkStack
 import RxSwift
 
 struct VideoWebServiceClient {

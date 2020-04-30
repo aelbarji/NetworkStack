@@ -1,11 +1,11 @@
 PODS:
-  - Alamofire (4.5.1)
+  - Alamofire (4.9.1)
   - Decodable (0.6.0)
-  - KeychainAccess (3.1.0)
-  - NetworkStack (0.1.6):
+  - EnGareNetworkStack (0.1.7):
     - Alamofire (~> 4.0)
     - KeychainAccess (~> 3.1)
-    - RxSwift (~> 4.0)
+    - RxSwift (~> 5.0)
+  - KeychainAccess (3.2.1)
   - OHHTTPStubs (6.0.0):
     - OHHTTPStubs/Default (= 6.0.0)
   - OHHTTPStubs/Core (6.0.0)
@@ -21,27 +21,35 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (6.0.0)
   - OHHTTPStubs/Swift (6.0.0):
     - OHHTTPStubs/Default
-  - RxSwift (4.0.0)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
   - Decodable
-  - NetworkStack (from `../../`)
+  - EnGareNetworkStack (from `../../`)
   - OHHTTPStubs
   - OHHTTPStubs/Swift
   - RxSwift
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Decodable
+    - KeychainAccess
+    - OHHTTPStubs
+    - RxSwift
+
 EXTERNAL SOURCES:
-  NetworkStack:
-    :path: ../../
+  EnGareNetworkStack:
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Decodable: f0b95fa2fcf8633dd097aa8f7f09838ab3524f5d
-  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
-  NetworkStack: bf1935d6507b67178cfaed37438568c2c752cf9f
+  EnGareNetworkStack: 23a9b60f65b589d2cd03c8499dc144faaf082f08
+  KeychainAccess: d5470352939ced6d6f7fb51cb2e67aae51fc294f
   OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
-  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 5addf36061eb4098b19ded3daeb49fa68d9f9aea
+PODFILE CHECKSUM: be5f9ab7a89f9c160c5f71d9c69f53219df7acf4
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.8.1
